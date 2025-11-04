@@ -1,0 +1,2 @@
+# PINN-for-Modeling-Gravitational-Potential-of-an-Irregular-Body
+This project implements a Physics-Informed Neural Network (PINN) using DeepXDE to approximate the gravitational potential field of a two-body system (e.g., Earth and Moon). By embedding Newtonian physics laws into the loss function, the model learns to satisfy both data-driven and physical constraints, demonstrating the fusion of AI and physics.
