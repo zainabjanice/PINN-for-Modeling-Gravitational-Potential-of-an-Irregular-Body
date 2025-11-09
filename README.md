@@ -94,8 +94,8 @@ jupyter notebook PINNs_notebook.ipynb
 
 <div style="text-align: center;">
   <div style="display: inline-block;">
-    <img align="left" alt="Coding" width="450" src="Figures/resultat1.png" >
-    <img align="right" alt="Coding" width="450" src="Figures/resultat2.png" >
+    <img align="left" alt="Coding" width="350" src="Figures/resultat1.png" >
+    <img align="right" alt="Coding" width="350" src="Figures/resultat2.png" >
   </div>
 </div>
 
