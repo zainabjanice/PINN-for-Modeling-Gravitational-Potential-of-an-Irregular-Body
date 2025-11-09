@@ -56,18 +56,50 @@ with:
 
 - Matplotlib – Visualization
 
+  
+## Evaluation Metrics (PINN vs FD)
+<div align="center">
+
+
+| Metric              |   Value  |
+| :------------------ | :------: |
+| **RMSE**            | 4.401050 |
+| **MAE**             | 3.534299 |
+| **MAPE**            |  1.13e11 |
+| **R²**              |  -1.1096 |
+| **Mean Prediction** |  -0.1768 |
+| **Std**             |  5.7719  |
+| **Min**             | -12.9625 |
+| **Max**             |  14.1818 |
+
+</div>
+
+## How to run
+```
+# Clone this repository
+git clone https://github.com/<your-username>/Physics-Informed-Neural-Network-Gravitational-Potential.git
+cd Physics-Informed-Neural-Network-Gravitational-Potential
+
+# Launch the notebook
+jupyter notebook PINNs_notebook.ipynb
+```
+
 ## Results
 
-✅ The PINN successfully learned the gravitational potential of an irregular body, producing a smooth and physically consistent potential field.
+- The PINN successfully learned the gravitational potential of an irregular body, producing a smooth and physically consistent potential field.
 
-✅ Residuals of Poisson’s equation remained low across the domain, showing strong physical adherence.
+- Residuals of Poisson’s equation remained low across the domain, showing strong physical adherence.
 
-✅ The model generalizes to new density configurations unseen during training.
+- The model generalizes to new density configurations unseen during training.
 
-<p float="left">
-  <img src="Figures/resultat1.png" width="300" />
-  <img src="Figures/resultat2.png" width="300" style="float: right;" />
-</p>
+<div style="text-align: center;">
+  <div style="display: inline-block;">
+    <img align="left" alt="Coding" width="450" src="Figures/resultat1.png" >
+    <img align="right" alt="Coding" width="450" src="Figures/resultat2.png" >
+  </div>
+</div>
+
+
 
 
 
